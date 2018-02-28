@@ -7,7 +7,7 @@ After the repo has been cloned, the following command can be used
 to build the development image:
 
 ```
-$ docker  build -t ruijzndl/ius-dev-pack:centos6.9 .
+$ docker  build -t ruijzndl/centos-dev-pack:6.9 .
 ```
 
 ## Use the Docker the image manually
