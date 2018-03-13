@@ -13,6 +13,7 @@ RUN yum install valgrind libuuid-devel -y
 RUN yum install gcc gcc-c++ make openssl-devel -y
 RUN yum install gdb-gdbserver -y
 RUN yum install cmake3 -y
+RUN yum install hdf5-devel -y
 RUN yum clean all
 WORKDIR /app
 
